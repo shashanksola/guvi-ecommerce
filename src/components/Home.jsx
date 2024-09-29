@@ -6,7 +6,7 @@ const Home = () => {
         <>
             <Navbar />
             <hr />
-            <div>
+            <div className="mt-24">
                 <Preview />
             </div>
         </>
