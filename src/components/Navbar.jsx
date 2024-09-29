@@ -1,6 +1,6 @@
 const Navbar = () => {
     return (
-        <nav className="container flex justify-between m-4 items-center">
+        <nav className="container flex justify-between m-4 items-center mb-24">
             <div className="flex flex-row justify-around w-4/6 items-center">
                 <h2 style={{ fontFamily: "sans-serif", fontWeight: '700', fontSize: '25px' }}>sneakers</h2>
                 <p className="text-gray-400">Collections</p>
