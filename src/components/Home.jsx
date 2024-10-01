@@ -16,6 +16,7 @@ const Home = () => {
                 <Preview />
                 <ItemInfo quantity={tempQuantity} updateQuantity={setTempQuantity} updateCartQuantity={setQuantity} />
             </div>
+            <p className="p-8 z-0">By <a href="https://www.linkedin.com/in/shashank-sola/" target="_blank">Shashank Sola</a></p>
             <CartModal cartVisible={cartVisible} updateCartVisible={setCartVisible} quantity={quantity} updateQuantity={setQuantity} />
         </main>
 

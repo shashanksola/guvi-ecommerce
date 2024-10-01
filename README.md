@@ -1,5 +1,7 @@
 # Frontend Mentor - E-commerce product page
 
+## Live Demo [Link](https://stunning-mochi-e2a97b.netlify.app/)
+
 ![Design preview for the E-commerce product page coding challenge](./src/assets/design/desktop-preview.jpg)
 
 ## Welcome! 👋
