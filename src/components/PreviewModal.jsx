@@ -23,7 +23,7 @@ const PreviewModal = ({ visible, updateModalStatus }) => {
     }
 
     return (
-        <div className="fixed inset-0 bg-black bg-opacity-80 backdrop-blur-sm z-20">
+        <div className="fixed inset-0 bg-black bg-opacity-80 backdrop-blur-sm z-40">
             <div className="flex flex-col justify-center items-center h-screen">
                 <svg className="mb-4 fill-slate-400 hover:fill-orange-600" width="14" height="15" xmlns="http://www.w3.org/2000/svg"><path d="m11.596.782 2.122 2.122L9.12 7.499l4.597 4.597-2.122 2.122L7 9.62l-4.595 4.597-2.122-2.122L4.878 7.5.282 2.904 2.404.782l4.595 4.596L11.596.782Z" fill-rule="evenodd" onClick={() => updateModalStatus(false)} /></svg>
                 <div className="flex justify-center items-center">
