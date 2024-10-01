@@ -11,13 +11,13 @@ const ItemInfo = ({ quantity, updateQuantity }) => {
         }
     }
 
-    return <div>
+    return <div className="max-md:p-8">
         <b className="text-slate-600 mb-4">SNEAKER COMPANY</b>
         <h1 className="text-5xl mb-2"><b>Fall Limited Edition</b></h1>
         <h1 className="text-5xl mb-8"><b>Sneakers</b></h1>
         <p className="text-slate-500 mb-6">
-            These low profile sneakers are your perfect casual wear <br></br>
-            companion. Featuring a durable rubber outer sole they'll <br></br>
+            These low profile sneakers are your perfect casual wear <br className="max-sm:hidden"></br>
+            companion. Featuring a durable rubber outer sole they'll <br className="max-sm:hidden"></br>
             withstand everythin the weather can offer.
         </p>
         <div className="flex items-center mb-4">
