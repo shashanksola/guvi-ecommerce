@@ -30,7 +30,7 @@ const PreviewModal = ({ visible, updateModalStatus }) => {
                     <div className='bg-slate-300 rounded-full h-8 w-8 flex justify-center items-center' style={{ margin: '-16px', zIndex: '1' }} onClick={() => prevImage()}>
                         <svg width="12" height="18" xmlns="http://www.w3.org/2000/svg"><path d="M11 1 3 9l8 8" stroke="#1D2026" stroke-width="3" fill="none" fill-rule="evenodd" /></svg>
                     </div>
-                    <img src={`../../images/image-product-${currentImg}.jpg`} className="mb-8 rounded-md w-1/2" />
+                    <img src={`../assets/images/image-product-${currentImg}.jpg`} className="mb-8 rounded-md w-1/2" />
                     <div className='bg-slate-300 rounded-full h-8 w-8 flex justify-center items-center' style={{ margin: '-16px' }} onClick={() => nextImage()}>
                         <svg width="13" height="18" xmlns="http://www.w3.org/2000/svg"><path d="m2 1 8 8-8 8" stroke="#1D2026" stroke-width="3" fill="none" fill-rule="evenodd" /></svg>
                     </div>
@@ -38,7 +38,7 @@ const PreviewModal = ({ visible, updateModalStatus }) => {
                 <div className="flex justify-between w-1/4">
                     {imgs.map(each => {
                         const overlay = each == currentImg ? 'opacity-50 border' : ''
-                        return <img src={`../../images/image-product-${each}-thumbnail.jpg`} className={`w-1/5 rounded-md ${overlay} border-orange-500`} key={each} onClick={() => updateImage(each)} />
+                        return <img src={`../assets/images/image-product-${each}-thumbnail.jpg`} className={`w-1/5 rounded-md ${overlay} border-orange-500`} key={each} onClick={() => updateImage(each)} />
                     })}
                 </div>
             </div>

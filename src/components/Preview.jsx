@@ -14,11 +14,11 @@ const Preview = () => {
     return (
         <>
             <div className="flex flex-col justify-between w-1/2 max-md:w-screen items-center lg:w-1/3">
-                <img src={`../../images/image-product-${currentImg}.jpg`} className="w-5/6 mb-8 rounded-md max-md:pointer-events-none" onClick={() => setModalStaus(!modalStatus)} />
+                <img src={`../assets/images/image-product-${currentImg}.jpg`} className="w-5/6 mb-8 rounded-md max-md:pointer-events-none" onClick={() => setModalStaus(!modalStatus)} />
                 <div className="flex justify-between w-5/6">
                     {imgs.map(each => {
                         const overlay = each == currentImg ? 'border' : ''
-                        return <img src={`../../images/image-product-${each}-thumbnail.jpg`} className={`w-1/5 rounded-md ${overlay} z-10`} key={each} onClick={() => updateImage(each)} />
+                        return <img src={`../assets/images/image-product-${each}-thumbnail.jpg`} className={`w-1/5 rounded-md ${overlay} z-10`} key={each} onClick={() => updateImage(each)} />
                     })}
                 </div>
             </div>

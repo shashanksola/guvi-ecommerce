@@ -6,7 +6,7 @@ const CartModal = ({ cartVisible, updateCartVisible, quantity, updateQuantity })
         {quantity === 0 ? <div className="bg-slate-50 min-h-48 max-md:w-5/6 w-1/3 m-20 p-4 drop-shadow-2xl flex justify-center items-center"><p>Your Cart is Empty.</p></div> : <div className="bg-slate-100 min-h-36 max-md:w-5/6 w-1/3 m-20 p-4">
             <p className="text-xl font-semibold mb-4">Cart</p>
             <div className="flex items-center justify-evenly mb-4">
-                <img src="../../images/image-product-1-thumbnail.jpg" className="w-1/6 rounded-md" />
+                <img src="../assets/images/image-product-1-thumbnail.jpg" className="w-1/6 rounded-md" />
                 <p className="text-slate-500 font-semibold">
                     Fall Limited Edition Sneakers <br></br>
                     $125.00x{quantity} <b className="text-slate-800">{parseFloat(125 * quantity).toFixed(2)}</b>
